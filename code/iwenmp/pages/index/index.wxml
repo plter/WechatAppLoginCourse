@@ -1,0 +1,11 @@
+<!--index.wxml-->
+<view class="index">
+  <view class="btn-group">
+    <button type="primary" style="width:80%" wx:if="{{ !userId }}" open-type="getUserInfo" bindgetuserinfo="getUserInfo">微信登录</button>
+    <view wx:if="{{ userId }}">
+      <button class="btn" open-type="share">分享</button>
+      <button class="btn btn-primary btn-pay">充值</button>
+      <button class="btn" bindtap="gotoIwenBlog">iwenblog</button>
+    </view>
+  </view>
+</view>

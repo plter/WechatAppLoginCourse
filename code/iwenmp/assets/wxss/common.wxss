@@ -1,0 +1,19 @@
+.header{
+  width:100%;
+  height:624rpx;
+}
+.btn{
+  width:540rpx;
+  height: 100rpx;
+  line-height: 100rpx;
+  text-align: center;
+  background-color: #FFFFFF;
+  border: none;
+  border-radius:50rpx;
+  color: #FF3418;
+  font-size: 34rpx;
+}
+.btn-primary{
+  background-color: #FF3418;
+  color: #FFFFFF;
+}

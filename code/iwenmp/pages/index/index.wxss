@@ -1,0 +1,13 @@
+/**index.wxss**/
+.index{
+  background-color:indigo;
+  height:100vh;
+}
+.btn-group{
+  padding-top:34rpx;
+  text-align:center;
+}
+.btn-pay{
+  margin-top: 50rpx;
+  margin-bottom: 50rpx;
+}
